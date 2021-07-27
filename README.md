@@ -1,24 +1,9 @@
-# hackercv
+# HackerCV fork
 
-## Project setup
-```
-npm install
-```
+Fork of me and my buddys' Vue project [HackerCV](https://github.com/sebdei/hackercv) for my tiny website.
 
-### Compiles and hot-reloads for development
+## Run
 ```
-npm run serve
+docker-compose up
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
