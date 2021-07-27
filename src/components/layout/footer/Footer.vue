@@ -1,5 +1,6 @@
 <template>
   <footer class="container-fluid border-top text-center py-5">
+    <Email class="mb-2" />
     <FindMe class="mb-4" />
 
     <div class="text-muted mb-4">
@@ -9,7 +10,7 @@
     </div>
 
     <router-link :to="{ name: 'Imprint' }">
-      <small class="text-muted">
+      <small class="text-muted imprint">
         Imprint
       </small>
     </router-link>
@@ -17,10 +18,12 @@
 </template>
 
 <script>
+import Email from './Email'
 import FindMe from './FindMe'
 
 export default {
   components: {
+    Email,
     FindMe
   }
 }
@@ -32,7 +35,8 @@ footer {
   color: $footer-text;
 }
 
-a {
+a, .imprint {
   text-decoration: underline;
 }
+
 </style>
