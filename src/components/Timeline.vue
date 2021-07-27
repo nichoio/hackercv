@@ -4,10 +4,10 @@
     <!-- <div id="line" /> -->
     <div v-for="(post, index) in posts" :key="post.title" class="mb-5">
       <div v-if="index % 2 === 0" class="timeline-post post-left">
-        <TimelinePost :title="post.title" :text="post.text" />
+        <TimelinePost :title="post.title" :text="post.text" :year="post.year" />
       </div>
       <div v-else class="timeline-post post-right">
-        <TimelinePost :title="post.title" :text="post.text" />
+        <TimelinePost :title="post.title" :text="post.text" :year="post.year" />
       </div>
     </div>
   </section>

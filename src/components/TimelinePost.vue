@@ -1,5 +1,5 @@
 <template>
-  <h4>{{ title }}</h4>
+  <h4>{{ title }} <small class="text-muted">{{ year }}</small></h4>
   <div class="timeline-post">
     {{ text }}
   </div>
@@ -16,8 +16,11 @@ export default {
     title: {
       type: String,
       default: ''
+    },
+    year: {
+      type: String,
+      default: ''
     }
-
   }
 }
 </script>
