@@ -1,6 +1,6 @@
 <template>
   <router-link class="btn btn-outline-secondary" :to="to">
-    {{ title }}
+    <strong>{{ title }}</strong>
   </router-link>
 </template>
 
