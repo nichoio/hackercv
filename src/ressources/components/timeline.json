@@ -1,22 +1,47 @@
 [
   {
-    "title": "CEO, Stark industries",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    "year": 2020
+    "title": "Graduate Research Assistant, WWU Münster",
+    "text": "Creation of binderhub.wwu.de as part of my Master thesis. I forked and remodeled the back end and Kubernetes setup of BinderHub (part of the Jupyter ecosystem) to minimize the attack surface of the underlying Kubernetes cluster of WWU university.",
+    "year": "2021"
   },
   {
-    "title": "CIO, Stark industries",
-    "text": "Lorem ipsum sit dolor amet, etc. etc. etc.",
-    "year": 2018
+    "title": "Student Software Developer, PAQATO GmbH, Münster",
+    "text": "Development of Shopware plugins with PHP and rollout of Prometheus based Monitoring of PAQATO's data flows.",
+    "year": "2020"
   },
   {
-    "title": "Knecht",
-    "text": "Lorem ipsum sit dolor amet, etc. etc. etc.",
-    "year": 2017
+    "title": "Freelance Software developer, Aithena, Amsterdam (Remote)",
+    "text": "Building a prototype for their company indexing software using Python, Scrapy and Google Cloud Platform to collect data about 1000s of businesses.",
+    "year": "2019"
   },
   {
-    "title": "Praktikant Fleischtheke",
-    "text": "An unserer Frischetheke sind Sie gut beraten! Wir stehen nicht nur für Sie hinter der Theke, wir stehen für Genuss, Vielfalt und Service. Wir stehen für freundliche Fachkompetenz, Beratung und Qualität. Wenn Frische unser Handwerk ist, ist die Frischetheke unser Meisterstück.",
-    "year": 2012
+    "title": "Junior BI Engineer, Bloomon, Amsterdam (Remote)",
+    "text": "Building various API's consumed by a in-house data warehouses with Python and Swagger.",
+    "year": "2018-2019"
+  },
+  {
+    "title": "M.Sc. Information Systems (Wirtschaftsinformatik), WWU Münster",
+    "text": "Master's degree in Information Systems with emphasis on Software Engineering and Data Analytics, incl. Neural Networks, Clustering and Data Mining.",
+    "year": "2018-2021"
+  },
+  {
+      "title": "Intern Business Intelligence, Bloomon, Amsterdam",
+      "text": "Student internship across 6 months at Bloomon's HQ in Amsterdam. Work with Google Sheets, Tableau, Facebook's + Google Ads APIs to collect, process and visualize data of Bloomon's delivery process and marketing spendings.",
+      "year": "2017-2018"
+  },
+  {
+      "title": "B.Sc. Business Information Systems (Wirtschaftsinformatik), Leipzig University",
+      "text": "",
+      "year": "2015-2018"
+  },
+  {
+      "title": "QA Tester, Gesundheitsforen Leipzig",
+      "text": "",
+      "year": "2013-2017"
+  },
+  {
+      "title": "B.A. Linguistics, Leipzig University",
+      "text": "",
+      "year": "2012-2018"
   }
 ]
