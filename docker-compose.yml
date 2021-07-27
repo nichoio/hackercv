@@ -3,7 +3,7 @@ version: "3.7"
 services:
   hackercv:
     build: .
-    container_name: hackercv
+    container_name: hackercv_nicho
     ports:
       - 8080:8080
     #  mount everything, except for node_modules
