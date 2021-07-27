@@ -1,48 +1,54 @@
 // Set theme here. Bootstrap variables are highlighted as such
 
 // General:
-$background: #ffffff;
-$body-color: #444444; /* Bootstrap */
-$primary: #dadada; /* Bootstrap */
-$secondary: #999999; /* Bootstrap */
-$accent: #c90e00;
-$subtle: #6c757d;
-
-// Footer:
-$footer-background: #fff;
-$footer-text: #333;
-$footer-subtle: #888888;
-
-// Links:
-$navbar-light-color: #999999; /* Bootstrap */
-$navbar-light-hover-color: #eeeeee; /* Bootstrap */
-
-// Markdown:
-$background-code: #eaeaea;
-$border-code: 1px solid #eaeaea;
-
-// Dark mode example:
-
-// // General:
-// $background: #131316;
-// $body-color: #eeeeee; /* Bootstrap */
+// $background: #ffffff;
+// $body-color: #444444; /* Bootstrap */
 // $primary: #dadada; /* Bootstrap */
 // $secondary: #999999; /* Bootstrap */
 // $accent: #c90e00;
-// $subtle: #999999;
+// $subtle: #6c757d;
 
 // // Footer:
-// $footer-background: #fcfcfc;
-// $footer-text: #333333;
-// $footer-subtle: #aaaaaa;
+// $footer-background: #fff;
+// $footer-text: #333;
+// $footer-subtle: #888888;
+// $footer-icons: opacity(0.5) drop-shadow(0 0 0 black);
 
 // // Links:
 // $navbar-light-color: #999999; /* Bootstrap */
 // $navbar-light-hover-color: #eeeeee; /* Bootstrap */
 
 // // Markdown:
-// $background-code: #131316;
-// $border-code: 1px solid #dadada;
+// $background-code: #eaeaea;
+// $border-code: 1px solid #eaeaea;
+
+// Dark mode example:
+
+// General:
+$background: #1a1e1e;
+$body-color: #eeeeee; /* Bootstrap */
+$primary: #dadada; /* Bootstrap */
+$secondary: #999999; /* Bootstrap */
+$accent: #c90e00;
+$subtle: #999999;
+
+// Footer:
+$footer-background: #1a1e1e;
+$footer-text: #dadada;
+$footer-subtle: #aaaaaa;
+// drop-shadow multiple times to enforce color
+$footer-icons: opacity(0.3) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white);
+$footer-icons-hover: opacity(0.2) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white);
+
+// Links:
+$navbar-light-color: #999999; /* Bootstrap */
+$navbar-light-hover-color: #eeeeee; /* Bootstrap */
+
+$btn-border-width: 2px; /* Bootstrap */
+
+// Markdown:
+$background-code: #131316;
+$border-code: 1px solid #dadada;
 
 // marked lib doesn't support scoped style, hence we define it here.
 // we use #markdown-content ancestor to prevent side effects
