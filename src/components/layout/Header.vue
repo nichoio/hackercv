@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light my-5">
       <div class="container">
         <router-link :to="{ name: 'Home' }">
-          <h1>Hacker CV</h1>
+          <h1>Nicholas Kappel</h1>
         </router-link>
 
         <button class="navbar-toggler" type="button"
@@ -33,7 +33,7 @@
 export default {
   computed: {
     views: function () {
-      return ['About', 'Projects', 'Blog']
+      return ['Home', 'CV']
     }
   }
 }
