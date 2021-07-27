@@ -42,9 +42,11 @@ export default {
   height: 27px;
   width: 27px;
   filter: $footer-icons;
+  -webkit-filter: brightness(0) invert(0.7);
 }
 
 .link-icon:hover {
   filter: $footer-icons-hover;
+  -webkit-filter: brightness(0) invert(0.9);
 }
 </style>

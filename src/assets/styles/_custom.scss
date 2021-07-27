@@ -36,9 +36,8 @@ $subtle: #999999;
 $footer-background: #1a1e1e;
 $footer-text: #dadada;
 $footer-subtle: #aaaaaa;
-// drop-shadow multiple times to enforce color
-$footer-icons: opacity(0.3) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white);
-$footer-icons-hover: opacity(0.2) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white);
+$footer-icons: brightness(0) invert(0.7);
+$footer-icons-hover: brightness(0) invert(0.9);
 
 // Links:
 $navbar-light-color: #999999; /* Bootstrap */
