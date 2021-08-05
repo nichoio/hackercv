@@ -1,22 +1,22 @@
 [
   {
     "title": "Graduate Research Assistant, WWU Münster",
-    "text": "Creation of binderhub.wwu.de as part of my Master thesis. I forked and remodeled the back end and Kubernetes setup of BinderHub (part of the Jupyter ecosystem) to minimize the attack surface of the underlying Kubernetes cluster of WWU university.",
+    "text": "Creation of binderhub.wwu.de as part of my Master's thesis. I forked and remodeled the back end and Kubernetes setup of BinderHub (part of the Jupyter ecosystem) to minimize the attack surface of the underlying Kubernetes cluster of WWU university.",
     "year": "2021"
   },
   {
     "title": "Student Software Developer, PAQATO GmbH, Münster",
-    "text": "Development of Shopware plugins with PHP and rollout of Prometheus based Monitoring of PAQATO's data flows.",
-    "year": "2020"
+    "text": "Development of Shopware (E-Commerce platform) plugins with PHP and rollout of Prometheus based Monitoring of PAQATO's data flows.",
+    "year": "2020-2021"
   },
   {
-    "title": "Freelance Software developer, Aithena, Amsterdam (Remote)",
-    "text": "Building a prototype for their company indexing software using Python, Scrapy and Google Cloud Platform to collect data about 1000s of businesses.",
+    "title": "Freelance Software developer, InforIntelligence, Amsterdam (Remote)",
+    "text": "Built an MVP for a company indexing software using Python, Scrapy and Google Cloud Platform to collect data about 1000s of businesses.",
     "year": "2019"
   },
   {
-    "title": "Junior BI Engineer, Bloomon, Amsterdam (Remote)",
-    "text": "Building various API's consumed by a in-house data warehouses with Python and Swagger.",
+    "title": "Student Junior BI Engineer, Bloomon, Amsterdam (Remote)",
+    "text": "Implemented various API's for ad campaign spending reporting with Python and Swagger.",
     "year": "2018-2019"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
       "title": "Intern Business Intelligence, Bloomon, Amsterdam",
-      "text": "Student internship across 6 months at Bloomon's HQ in Amsterdam. Work with Google Sheets, Tableau, Facebook's + Google Ads APIs to collect, process and visualize data of Bloomon's delivery process and marketing spendings.",
+      "text": "Support of migration from a simple MySQL based data warehouse to data warehousing with Google Big-Query. Various data analysis and reporting tasks using Tableau, Google Sheets and Pandas/Jupyter.",
       "year": "2017-2018"
   },
   {
